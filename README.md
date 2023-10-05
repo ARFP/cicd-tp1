@@ -28,14 +28,14 @@ Une voiture est caractérisée par une marque, un modèle et un prix.
 2. Créer les tickets correspondants à la demande ci-dessous afin de vous répartir le travail.
 3. Développer l'application (restez simple)
   - Votre application doit contenir à minima une classe `Voiture`.
-    - Marque (obligatoire, 4 caractères minimum).
-    - Modèle (obligatoire, 2 caractères minimum).
-    - Couleur (obligatoire, 4 caractères minimum).
+    - Marque (chaine de caractères, obligatoire, 4 caractères minimum).
+    - Modèle (chaine de caractères, obligatoire, 2 caractères minimum).
+    - Prix (nombre entier, obligatoire, valeur comprise entre 5000 et 500000).
 4. Créer un projet de Tests unitaires
   - Tester la validité d'une instance de Voiture.
     - La marque est-elle valide ?
     - Le modèle est-il valide ?
-    - La couleur est-elle valide ?
+    - Le prix est-il valide ?
 5. Ajouter les actions nécessaires pour lancer les tests unitaires de votre projet :
   - Lorsqu'un push est effectué sur la branche `develop`.
   - Lors d'une pull request vers la branche `main`.
